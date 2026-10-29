@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculate BMI, body mass index</title>
+    <link rel="stylesheet" href="assets/styles/BMI_Styles.css" />
+  </head>
+  <body>
+    <div>
+      <p id="head">Calculate BMI, body mass index</p>
+    </div>
+    <div class="card">
+      <div>
+        <form id="FORM">
+          <input type="number" id="height" placeholder=" Enter your height " />
+          <input type="number" id="weight" placeholder="Enter your weight" />
+          <br />
+          <input id="input" type="submit" value="Submit" />
+        </form>
+      </div>
+
+      <div class="result"></div>
+    </div>
+    <div class="info">
+      <h2>What is BMI?</h2>
+      <p>
+        BMI (Body Mass Index) is a measurement that uses your height and weight
+        to estimate whether your weight is within a healthy range.
+      </p>
+
+      <br />
+
+      <h2>How is BMI calculated?</h2>
+      <p>
+        BMI is calculated by dividing your weight in kilograms by the square of
+        your height in meters.
+      </p>
+      <p>Formula: BMI = Weight (kg) / Height² (m²)</p>
+
+      <br />
+
+      <h2>BMI Categories</h2>
+      <p>Underweight: Below 18.5</p>
+      <p>Healthy weight: 18.5 – 24.9</p>
+      <p>Overweight: 25 – 29.9</p>
+      <p>Obesity: 30 and above</p>
+
+      <br />
+
+      <h2>Important Note</h2>
+      <p>
+        BMI is a general screening tool, not a complete measure of health. It
+        does not directly measure body fat and may not accurately reflect
+        everyone's health. For children and teenagers, BMI is interpreted
+        differently based on age and sex.
+      </p>
+    </div>
+    <script src="assets/scripts/BMI.js"></script>
+  </body>
+</html>
